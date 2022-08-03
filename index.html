@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GUI</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header__wrap">
+        <div class="header">
+            <div class="header__container-left">
+                <a href= "#" class="header__logo">
+                    <h1 class="header__logo-text">
+                        GUI
+                    </h1>
+                </a>
+                <nav class="navigation" id="navigation">
+                    <ul class="navigation__menu">
+                        <li class="navigation__item">
+                            <a href="" class="navigation__link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="articles.html" class="navigation__link">
+                                articles
+                            </a>
+                        </li>
+                        <li class="navigation__item navigation__item-active">
+                            <div class="navigation__submenu">
+                                <a href="index.html" class="navigation__submenu-title">
+                                    videos
+                                </a>
+                                <ul class="navigation__submenu-list">
+                                    <li class="navigation__submenu-item">
+                                        <a href="#" class="navigation__submenu-link">
+                                            Most Recent
+                                        </a>
+                                    </li>
+                                    <li class="navigation__submenu-item">
+                                        <a href="#" class="navigation__submenu-link">
+                                            Most Popular
+                                        </a>
+                                    </li>
+                                    <li class="navigation__submenu-item">
+                                        <a href="#" class="navigation__submenu-link">
+                                            All
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="index.html" class="navigation__link">
+                                videos
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="" class="navigation__link">
+                                contact us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__container-right">
+                <a href="javascript:void(0);" class="header__signin">
+                    Sign In / Sign Up
+                </a>
+                <div class="search">
+                    <div class="search__svg" onclick="openSearch()">
+                        <img src="images/icons/search.svg" alt="alt">
+                    </div>
+
+                    <input type="search" placeholder="Search" class="search__input" id="searchInput">
+                </div>
+                <div class="menu-btn" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="24" viewBox="0 0 30 24">
+                        <image id="Drawer_Icon" data-name="Drawer Icon" width="30" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAYCAQAAABHYIU0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjCgITKB4Fj51GAAAAK0lEQVQ4y2P8/5+BbMBEvtaB1MxIgZeHqp8HTjMLw2gKGyLOHqKaR2IKAwBR6AYsXmYWZwAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+             </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__inner">
+            <article class="featured-video">
+                <div class="featured-video__player">
+                    <video src="#" class="featured-video__window" poster="images/Video-1.jpg"></video>
+                    <a href="javascript:void (0);" class="featured-video__play-button">
+                        <img src="#" alt="" class="featured-video__play-svg">
+<!--                        <img src="images/icons/Play_Button.svg" alt="alt" class="featured-video__play-svg">-->
+                    </a>
+                </div>
+                <div class="featured-video__Title">
+                    <h2 class="featured-video__Title-text">
+                        Watch the Trailers for Legends of Tomorrow and Other New CW Shows
+                    </h2>
+                    <a href="" class="featured-video__Title-link">
+                        tvguide.com
+                    </a>
+                </div>
+
+            </article>
+            <div class="content-video">
+                <div class="content-video__item-wrap">
+                    <article class="content-video__item">
+                        <video src="#" class="content-video__window" poster="images/Video-2.jpg"></video>
+                        <div class="content-video__title">
+                            <h2 class="content-video__title-text">
+                                The Supergirl Trailer is Here
+                            </h2>
+                            <a href="" class="content-video__title-link">
+                                ign.com
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="content-video__item-wrap">
+                    <article class="content-video__item">
+                    <video src="#" class="content-video__window" poster="images/Video-3.jpg"></video>
+                    <div class="content-video__title">
+                        <h2 class="content-video__title-text">
+                            Mad Max: Fury Road
+                        </h2>
+                        <a href="" class="content-video__title-link">
+                            nytimes.com
+                        </a>
+                    </div>
+                </article>
+                </div>
+                <div class="content-video__item-wrap">
+                    <article class="content-video__item">
+                    <video src="#" class="content-video__window" poster="images/Video-4.jpg"></video>
+                    <div class="content-video__title">
+                        <h2 class="content-video__title-text">
+                            Elephants Have a Secret Language
+                        </h2>
+                        <a href="" class="content-video__title-link">
+                            cnn.com
+                        </a>
+                    </div>
+                </article>
+                </div>
+                <div class="content-video__item-wrap">
+                    <article class="content-video__item">
+                    <video src="#" class="content-video__window" poster="images/Video-5.jpg"></video>
+                    <div class="content-video__title">
+                        <h2 class="content-video__title-text">
+                            Mariah Carey -- Diva Does Disneyland
+                        </h2>
+                        <a href="" class="content-video__title-link">
+                            tmz.com
+                        </a>
+                    </div>
+                </article>
+                </div>
+                <div class="content-video__item-wrap">
+                    <article class="content-video__item">
+                    <video src="#" class="content-video__window" poster="images/Video-6.jpg"></video>
+                    <div class="content-video__title">
+                        <h2 class="content-video__title-text">
+                            Cleveland's Elephant in the Room
+                        </h2>
+                        <a href="" class="content-video__title-link">
+                            espn.com
+                        </a>
+                    </div>
+                </article>
+                </div>
+                <div class="content-video__item-wrap">
+                    <article class="content-video__item">
+                    <video src="#" class="content-video__window" poster="images/Video-7.jpg"></video>
+                    <div class="content-video__title">
+                        <h2 class="content-video__title-text">
+                            Miss Piggy Gets Feminist Award
+                        </h2>
+                        <a href="" class="content-video__title-link">
+                            usatoday.com
+                        </a>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__inner">
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="articles.html" class="footer__nav-link">
+                                Articles
+                            </a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="index.html" class="footer__nav-link">
+                                Videos
+                            </a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__caption">
+                    © 2015. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
